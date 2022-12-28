@@ -15,14 +15,14 @@
 ###  http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#committedAgainst
 <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#committedAgainst> rdf:type owl:ObjectProperty ;
                                                                                                  owl:inverseOf <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#victimOf> ;
-                                                                                                 rdfs:domain <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Criminal_Offence> ;
+                                                                                                 rdfs:domain <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Offence> ;
                                                                                                  rdfs:range <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Victim_group> .
 
 
 ###  http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#victimOf
 <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#victimOf> rdf:type owl:ObjectProperty ;
                                                                                          rdfs:domain <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Victim_group> ;
-                                                                                         rdfs:range <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Criminal_Offence> .
+                                                                                         rdfs:range <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Offence> .
 
 
 #################################################################
@@ -41,7 +41,7 @@
 
 ###  http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Type
 <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Type> rdf:type owl:DatatypeProperty ;
-                                                                                     rdfs:domain <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Criminal_Offence> .
+                                                                                     rdfs:domain <http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Offence> .
 
 
 ###  http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Year
@@ -53,8 +53,8 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Criminal_Offence
-<http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Criminal_Offence> rdf:type owl:Class .
+###  http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Offence
+<http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Offence> rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/gwenmcardle/ontologies/2022/11/victims#Victim_group
